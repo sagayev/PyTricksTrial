@@ -1,0 +1,2 @@
+# PyTricksTrial
+Refreshing Python skills
