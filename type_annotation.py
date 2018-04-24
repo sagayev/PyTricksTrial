@@ -11,7 +11,7 @@ def add_this(a:int, b:int) -> int:
 #this just gives you hint, doesn't prevent following
 add_this('samir', ' aghayev')
 
-#we can force it by pylint and mypy
+#we can force it by pylint and mypy-lang
 # in my opinion the following is better because you don't need any third party 
 #library
 def add_this(a:int, b:int) -> int:
