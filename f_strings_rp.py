@@ -54,3 +54,53 @@ print(message)
 Multiline f-strings
 
 """
+name = "Samir"
+profession = "comedian"
+affiliation = "Monty Python"
+message = (
+        f"Hi {name}. "
+        f"You are a {profession}. "
+        f"You were in {affiliation}."
+        )
+print(message)
+#Hi Samir. You are a comedian. You were in Monty Python.
+
+
+message =f"""
+    Hi {name}.
+    You are a {profession}.
+    You were in {affiliation}.
+    
+    """
+print (message)
+#    Hi Samir.
+#    You are a comedian.
+#    You were in Monty Python.
+
+#>>>message
+#'\n    Hi Samir.\n    You are a comedian.\n    You were in Monty Python.\n    \n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
