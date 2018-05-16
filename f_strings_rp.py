@@ -81,8 +81,14 @@ print (message)
 #'\n    Hi Samir.\n    You are a comedian.\n    You were in Monty Python.\n    \n
 
 
+comedian = {'name': 'Samir Aghayev', 'age': 40}
+message=f"The comedian is {comedian['name']}, aged {comedian['age']}."
+print("Dictionary in f string: ", message)
 
 
+print(f"{{40}}")        #>>{40}
+print(f"{{{40}}}")      #>>{40}
+print(f"{{{{40}}}}")    #>>{{40}}
 
 
 
